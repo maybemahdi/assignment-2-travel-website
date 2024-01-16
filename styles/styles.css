@@ -15,6 +15,14 @@ body {
 
 button {
     cursor: pointer;
+    transition: .2s ease-out all;
+}
+.readmore:hover,
+.booknow:hover,
+.seemorepkg:hover{
+    background: #ffffff00;
+    color: #FF5400;
+    border: 1px solid #FF5400;
 }
 
 /* header started */
@@ -71,8 +79,11 @@ nav li {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    transition: .3s ease-out all;
 }
-
+nav li:hover{
+    color: #FF5400;
+}
 .nav-bar {
     display: none;
 }
@@ -862,8 +873,13 @@ header .banner {
     border-radius: 8px;
     background: #FF5400;
     margin-bottom: 18px;
+    transition: .2s ease-out all;
 }
-
+.subscribe-box input[type=submit]:hover{
+    background: #ffffff00;
+    color: #FF5400;
+    border: 1px solid #FF5400;
+}
 .subscribe-box input[type=submit]:hover {
     cursor: pointer;
 }
@@ -1340,9 +1356,6 @@ footer {
         margin: 24px 0;
     }
 }
-
-
-
 
 
 
