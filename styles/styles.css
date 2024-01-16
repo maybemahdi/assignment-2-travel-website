@@ -1298,9 +1298,9 @@ footer {
     }
 
     .newsletter-container .img .move {
-        left: 40%;
+        left: 45%;
         bottom: 120px;
-        width: 210px;
+        width: 50%;
         height: 79.268px;
         transform: rotate(-19deg);
     }
@@ -1647,7 +1647,7 @@ footer {
     }
 
     .newsletter-container .img .move {
-        left: 55%;
+        left: 40%;
         bottom: 130px;
         width: 310px;
         height: 79.268px;
